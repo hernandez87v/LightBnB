@@ -52,7 +52,7 @@ exports.getUserWithId = getUserWithId;
 
 
 /**
- * Add a new user to the database.
+ * Add a new user to the database
  * @param {{name: string, password: string, email: string}} user
  * @return {Promise<{}>} A promise to the user.
  */
